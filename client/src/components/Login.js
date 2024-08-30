@@ -40,10 +40,10 @@ const Login = () => {
     return (
         <div>
 
-        <h2 className="m-3">Enter Login Details</h2>
+        <h2 className="text-purple-500 ">Enter Login Details</h2>
             <form onSubmit={handlesubmit}>
                 <div className="mb-3">
-                    <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
+                    <label htmlFor="exampleInputEmail1" className="form-label underline">Email address</label>
                     <input onChange={handelchange} type="email" className="form-control" id="email" name="email" aria-describedby="emailHelp" value={creds.email}/>
                     <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                 </div>
